@@ -18,7 +18,7 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
 
 ## Premier sketch
 ### Les variables 
-Processing nécessite de déclarer le type des variables. Selon le type, une variable pourra stocker différents types de valeurs et avoir une taille de stockage différente.
+Processing nécessite de déclarer le type des variables. Selon le type, une variable pourra stocker différents types de valeurs et avoir une taille de stockage différente. La valeur d'une variable peut être changée plus tard dans le programme. Ainsi, une variable pourra prendre plusieurs valeurs au cours du programme.
 
 ```java
 -int // stocke des entiers
@@ -49,6 +49,26 @@ void mousePressed(){
 
 ### Les fonctions de base de Processing
 
+#### Les constantes d'un sketch
+Certaines variables peuvent être "globales" ou internes selon l'endroit où elles ont été déclarées.
+Une variable déclarée en dehors de toute fonction est considérée comme **globale** et accesible partout dans le sketch. Une variable déclarée dans une fonction, une boucle ou une condition est considérée comme **locale** et n'est accessible que dans cette boucle / variable / condition.
+
+Certaines sont spécifiques à Processing, et utilisables à tout moment, telles que **mouseX, mouseY** qui définissent la position sur les axes x, y de la souris, et **width, height** qui définissent la taille de la fenêtre 
+
+```java
+int glob; // voici une variable globale
+
+void setup(){
+int loc = 10; // voici une variable locale crée avec une valeur de 10
+glob = 10;
+}
+
+void draw(){
+println(glob); // affiche dans la console la valeur de glob, ici "10"
+//si je fais println(loc), Processing me renverra une erreur
+}
+```
+
 #### Dessiner une forme
 Une ellipse est définie par 4 paramètres : 
 * sa position en x
@@ -75,14 +95,23 @@ strokeWeight(5); // contour avec une épaisseur de 5px
 fill(255,0,0,125); // remplissage avec du rouge pur en semi-transparence
 ```
 
+### L'aléatoire avec random
+La fonction **random()** permet de faire intervenir une notion d'aléatoire dans le code. Elle renvoie une valeur aléatoire comprise dans un intervalle à chaque fois qu'elle est appelée. Random prend deux paramètres :
+```java
+random(10,50); // renvoie une valeur aléatoire entre 10 et 50
+```
+
+### Dessiner une forme avec des variables
+Plutôt que placer des valeurs fixes lorsqu'on définit une forme, on peut définir celle-ci avec des variables qui pourront etre changées plus tard, permettant que la forme change de taille, couleur, de contour etc...
+```java
+int positionx = 100; // petit rappel : int stocke des entiers
+int positiony = 50;
+float taille = 50; // float stocke des réels
+ellipse( positionx, positiony, taille, taille ); // un  cercle de 50 de rayon placé en (100,50).
+```
 
 ## SKETCH1:
 
--Ellipse
--fill/stroke
--placement(width, height)
--taille
--random
 -float placement, comment passer a l'ellipse des variable.
 -int taille, comment passer a l'ellipse des variable.
 -keyPressed==true
