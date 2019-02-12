@@ -17,3 +17,56 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
 
     -** Colorhunt  :** (Colorhunt)[https://colorhunt.co/]
     -** Pinterest inspiration board  :**
+
+
+         /\
+        /::\
+       /::::\
+      /::::::\
+     /::::::::\
+    /::::::::::\
+   /::::::::::::\ 
+  /::::::::::::::\
+ /::::::::::::::::\
+/::::::::::::::::::\
+|::PCD_Processing::|
+\::::::::::::::::::/
+ \::::::::::::::::/
+  \::::::::::::::/
+   \::::::::::::/
+    \::::::::::/
+     \::::::::/
+      \::::::/
+       \::::/
+        \::/
+         \/
+
+
+
+
+SKETCH1:
+
+-Ellipse
+-fill/stroke
+-placement(width, height)
+-taille
+-random
+-float placement, comment passer a l'ellipse des variable.
+-int taille, comment passer a l'ellipse des variable.
+-keyPressed==true
+-aller vers la version finale du PCD_sketch1_randomellipse
+
+SKETCH2:
+
+-mouseX/mouseY
+-opacité
+
+SKETCH3:
+
+-for/push,pop
+-map
+
+SKETCHFINAL:
+
+-
+-
