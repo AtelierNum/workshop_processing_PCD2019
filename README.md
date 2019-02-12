@@ -16,9 +16,7 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
   - [Colorhunt, un site de palettes de couleurs](https://colorhunt.co/)
   - [Site de daniel Shiffman](https://shiffman.net/)
 
-
 ## Premier sketch
-
 ### Les variables 
 Processing nécessite de déclarer le type des variables. Selon le type, une variable pourra stocker différents types de valeurs et avoir une taille de stockage différente.
 
@@ -37,6 +35,7 @@ Il existe aussi des fonctions évènementielles qui s'exécutent de manière mom
 void setup(){
 size(800,800); // taille de la fenetre de dessin
 background(0); //couleur du fond
+}
 
 void draw(){
 // le code à executer en boucle
@@ -47,6 +46,35 @@ void mousePressed(){
 }
 
 ```
+
+### Les fonctions de base de Processing
+
+#### Dessiner une forme
+Une ellipse est définie par 4 paramètres : 
+* sa position en x
+* sa position en y
+* son rayon en x
+* son rayon en y
+
+Le rectangle est également défini de la même manière, à la différence près que les deux derniers paramètres correspondent 
+à la longueur de ses côtés.
+
+```java
+ellipse(50,100,10,10); //une cercle positionné en (50,100) faisant 10px de rayon
+rect(50,100,10,10); // un carré positionné en (50,100) faisant 10px de côté
+```
+
+#### Les contours et le remplissage
+Processing définit les contours avec la fonction **stroke()** et le remplissage d'une forme avec **fill()**
+En mode RGB (Rouge Vert Bleu), elles nécessitent 3 paramètres correspondant aux trois valeurs de couleur. On peut (si l'on souhaite) ajouter une quatrième valeur pour définir l'opacité (également comprise entre 0 et 255). 
+Pour tracer une forme avec un contour, il nous faut également définir son épaisseur avec **strokeWeight()**
+
+```java
+stroke(0,10,250,10); // contour avec du bleu presque transparent
+strokeWeight(5); // contour avec une épaisseur de 5px
+fill(255,0,0,125); // remplissage avec du rouge pur en semi-transparence
+```
+
 
 ## SKETCH1:
 
