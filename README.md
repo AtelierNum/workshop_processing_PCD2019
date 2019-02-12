@@ -75,6 +75,8 @@ strokeWeight(5); // contour avec une épaisseur de 5px
 fill(255,0,0,125); // remplissage avec du rouge pur en semi-transparence
 ```
 
+![Rosace 1](./assets/rosace1.png)
+![Rosace 2](./assets/rosace2.png)
 
 ## SKETCH1:
 
