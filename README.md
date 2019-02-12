@@ -14,6 +14,7 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
 
   - [Documentation P5 js](https://p5js.org/)
   - [Colorhunt, un site de palettes de couleurs](https://colorhunt.co/)
+  - [Site de daniel Shiffman](https://shiffman.net/)
 
 
 ## Premier sketch
