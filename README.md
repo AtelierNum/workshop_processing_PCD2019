@@ -11,10 +11,7 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
 
 
 
-## Un peu d'inspiration
-
-
-## Useful links : 
+## Un peu d'inspiration : 
 
     -** P5 official documentation  :**  (P5)[https://p5js.org/]
 
