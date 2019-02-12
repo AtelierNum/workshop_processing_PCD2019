@@ -44,9 +44,11 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
 ## Premier sketch
 ### Les variables 
 Processing nécessite de déclarer le type des variables. Selon le type, une variable pourra stocker différents types de valeurs et avoir une taille de stockage différente.
+'''java
 -int // stocke des entiers
 -float // stocke des réels 
 -double //stocke également des réels, mais peut contenir plus de chiffres après la virgule
+'''
 
 SKETCH1:
 
