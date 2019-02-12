@@ -168,17 +168,19 @@ Un boucle for se compose, de deux parties :
 
 * puis on incrémente « i » de 1 en lui ajoutant la valeur 1.
 
-Le code présenté ci-dessus permet donc de dessiner 10 cercles blancs de 5 pixels de diamètre, le premier étant situé en haut à gauche aux coordonnées (10,10), le dernier au coordonnées (100,100).(100 = 10 + 9*10).
+Le code présenté ci-dessus permet donc de dessiner 10 cercles blancs de 5 pixels de diamètre, le premier étant situé en haut à gauche aux coordonnées (10,10), le dernier aux coordonnées (100,100).(100 = 10 + 9*10).
 
 
 
 ## SKETCH FINAL :
+Avec toutes les notions abordées auparavant, il vous est maintenant possible de créer une rosace créeant des formes trs sympathiques ! 
+Petit indice : il est possible de positionner les points avec des coordonnées polaires, mais pour les frileux, il est possible d'éviter celles-ci avec les fonctions de Processing ! Jetez un coup d'oeil sur [le site de Processing](https://processing.org/reference/) pour comprendre les notions de **pushMatrix()** et **popMatrix()**, **translate()** et **rotate()**.
 
 ![Rosace 1](./assets/rosace1.png)
 ![Rosace 2](./assets/rosace2.png)
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::POUR::ALLER::PLUS::LOIN:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::PROCESSING:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Pour aller plus loin 
 --> [https://github.com/b2renger/Introduction_Processing](https://github.com/b2renger/Introduction_Processing)
 --> [https://shiffman.net/](https://shiffman.net)
 [https://www.youtube.com/user/shiffman](https://www.youtube.com/user/shiffman)
