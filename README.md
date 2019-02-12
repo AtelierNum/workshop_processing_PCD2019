@@ -9,14 +9,60 @@ En savoir plus sur le PCD 2017 et l’histoire de Processing.
 Pour PCD 2019, nous voudrions élargir l’audience et l’impact de cette communauté en s’organisant avec des centaines de Communauté Processing de part le monde. La Fondation Processing organisera le Processing Community Day de Los Angeles et invitera d’autres organisateurs à les rejoindre via d’autres événements et ateliers partout dans le monde.
 
 Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.processing.org/pcd-ww.html)
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 
 ## Un peu d'inspiration : 
 
   - [Documentation P5 js](https://p5js.org/)
   - [Colorhunt, un site de palettes de couleurs](https://colorhunt.co/)
-  - []()
+
+
+
+         /\
+        /::\
+       /::::\
+      /::::::\
+     /::::::::\
+    /::::::::::\
+   /::::::::::::\ 
+  /::::::::::::::\
+ /::::::::::::::::\
+/::::::::::::::::::\
+|::PCD_Processing::|
+\::::::::::::::::::/
+ \::::::::::::::::/
+  \::::::::::::::/
+   \::::::::::::/
+    \::::::::::/
+     \::::::::/
+      \::::::/
+       \::::/
+        \::/
+         \/
+
+
+
+
+SKETCH1:
+
+-Ellipse
+-fill/stroke
+-placement(width, height)
+-taille
+-random
+-float placement, comment passer a l'ellipse des variable.
+-int taille, comment passer a l'ellipse des variable.
+-keyPressed==true
+-aller vers la version finale du PCD_sketch1_randomellipse
+
+SKETCH2:
+
+-mouseX/mouseY
+-opacité
+
+SKETCH3:
+
+-for/push,pop
+-map
+
+SKETCHFINAL:
+
