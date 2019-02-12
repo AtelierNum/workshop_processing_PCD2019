@@ -16,38 +16,34 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
   - [Colorhunt, un site de palettes de couleurs](https://colorhunt.co/)
 
 
-
-         /\
-        /::\
-       /::::\
-      /::::::\
-     /::::::::\
-    /::::::::::\
-   /::::::::::::\ 
-  /::::::::::::::\
- /::::::::::::::::\
-/::::::::::::::::::\
-|::PCD_Processing::|
-\::::::::::::::::::/
- \::::::::::::::::/
-  \::::::::::::::/
-   \::::::::::::/
-    \::::::::::/
-     \::::::::/
-      \::::::/
-       \::::/
-        \::/
-         \/
-
-
-
 ## Premier sketch
 ### Les variables 
 Processing nécessite de déclarer le type des variables. Selon le type, une variable pourra stocker différents types de valeurs et avoir une taille de stockage différente.
+
 ```java
 -int // stocke des entiers
 -float // stocke des réels 
 -double //stocke également des réels, mais peut contenir plus de chiffres après la virgule
+```
+### Définir les constantes du sketch
+Processing utilise une fonction **setup** qui s'exécute une seule fois au lancement du sketch, puis la fonction **draw** prend le relais et est exécutée en boucle jusqu'à l'arrêt du programme.
+Il existe aussi des fonctions évènementielles qui s'exécutent de manière momentannée lorsqu'une action est effectuée par l'utilisateur, comme un clic de souris ou une pression d'une touche de clavier.
+
+```java
+
+
+void setup(){
+size(800,800); // taille de la fenetre de dessin
+background(0); //couleur du fond
+
+void draw(){
+// le code à executer en boucle
+}
+
+void mousePressed(){
+// le code à exécuter lorsqu'un clic de souris est effectué
+}
+
 ```
 
 SKETCH1:
