@@ -16,34 +16,7 @@ Lien vers PCD @ worldwide [https://day.processing.org/pcd-ww.html](https://day.p
   - [Colorhunt, un site de palettes de couleurs](https://colorhunt.co/)
 
 
-
-         /\
-        /::\
-       /::::\
-      /::::::\
-     /::::::::\
-    /::::::::::\
-   /::::::::::::\ 
-  /::::::::::::::\
- /::::::::::::::::\
-/::::::::::::::::::\
-|::PCD_Processing::|
-\::::::::::::::::::/
- \::::::::::::::::/
-  \::::::::::::::/
-   \::::::::::::/
-    \::::::::::/
-     \::::::::/
-      \::::::/
-       \::::/
-        \::/
-         \/
-
-
-
-
-SKETCH1:
-
+## SKETCH 1 :
 -Ellipse
 -fill/stroke
 -placement(width, height)
@@ -54,15 +27,16 @@ SKETCH1:
 -keyPressed==true
 -aller vers la version finale du PCD_sketch1_randomellipse
 
-SKETCH2:
+
+## SKETCH 2 :
 
 -mouseX/mouseY
 -opacité
 
-SKETCH3:
+## SKETCH 3 :
 
 -for/push,pop
 -map
 
-SKETCHFINAL:
+## SKETCH FINAL :
 
