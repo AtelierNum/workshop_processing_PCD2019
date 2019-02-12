@@ -181,22 +181,7 @@ Petit indice : il est possible de positionner les points avec des coordonnées p
 
 
 ## Pour aller plus loin 
---> [https://github.com/b2renger/Introduction_Processing](https://github.com/b2renger/Introduction_Processing)
---> [https://shiffman.net/](https://shiffman.net)
-[https://www.youtube.com/user/shiffman](https://www.youtube.com/user/shiffman)
-[https://fr.flossmanuals.net/processing/introduction](https://fr.flossmanuals.net/processing/introduction)
-
-
-
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::POUR::ALLER::PLUS::LOIN::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::P5.JS:::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
---> https://github.com/b2renger/Introduction_p5js
---> https://shiffman.net/
--->https://www.youtube.com/user/shiffman
--->https://codepen.io/
--->https://www.openprocessing.org/
+* [https://github.com/b2renger/Introduction_Processing](https://github.com/b2renger/Introduction_Processing)
+* [https://shiffman.net/](https://shiffman.net)
+* [https://www.youtube.com/user/shiffman](https://www.youtube.com/user/shiffman)
+* [https://fr.flossmanuals.net/processing/introduction](https://fr.flossmanuals.net/processing/introduction)
